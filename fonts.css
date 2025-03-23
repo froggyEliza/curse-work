@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Futurespore Cyrillic';
+	src: url('../fonts/futurespore_cyrillic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/futurespore_cyrillic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/futurespore_cyrillic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/futurespore_cyrillic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/futurespore_cyrillic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/futurespore_cyrillic.svg#futurespore_cyrillic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Harry Potter (Russian Version of Gfdtk)';
+	src: url('../fonts/harry_potter_russian_version_of_gfdtk.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/harry_potter_russian_version_of_gfdtk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/harry_potter_russian_version_of_gfdtk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/harry_potter_russian_version_of_gfdtk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/harry_potter_russian_version_of_gfdtk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/harry_potter_russian_version_of_gfdtk.svg#harry_potter_russian_version_of_gfdtk') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Jost-Regular';
+	src: url('./jost-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+	font-family: 'Klukva';
+	src: 
+		url('./Klukva_version_01.otf') format('otf'), /* Firefox >= 3.6, any other modern browser */
+}

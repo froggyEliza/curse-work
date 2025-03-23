@@ -1,0 +1,353 @@
+body {
+    background-color: #222222;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1440px;
+    height: 117px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header_logo {
+    width: 125px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 90px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-right: 73px; */
+}
+
+.header_link {
+    display: flex;
+    gap: 20px;
+    word-spacing: 49px;
+    list-style: none;
+    padding-bottom: 42px;
+}
+
+.header_menu {
+    display: flex;
+    font-family: 'Futurespore Cyrillic';
+    font-size: 40px;
+    text-decoration: none;
+    color: #F1F1F1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+.social_media_icons {
+    /* width: 59px; */
+    height: 100%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 22px;
+}
+
+.poster {
+    background-image: url(./image/poster.png);
+    background-size: cover;
+    /* max-width: 1440px; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    font-size: 96px;
+    color: #F1F1F1;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 28px;
+    z-index: 1;
+}
+
+.title__post {
+    font-family: 'Futurespore Cyrillic';
+    color: #F1F1F1;
+    font-size: 48px;
+    margin: 0;
+    padding-top: 16px;
+    z-index: 1;
+}
+
+.decor__1 {
+    background-image: url(./image/blob-left.png);
+    width: 172px;
+    height: 141px;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+}
+
+.decor__2 {
+    background-image: url(./image/blob-right.png);
+    width: 177px;
+    height: 169px;
+    position: absolute;
+    top: 2%;
+    right: 20%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 103px;
+    position: relative;
+}
+
+.card__1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.pict_1 {
+    display: flex;
+    position: relative;
+}
+
+.pic__1 {
+    width: 300px;
+    height: 426px;
+    padding-left: 250px;
+    position: relative;
+    z-index: 3;
+}
+
+.pic__1-1 {
+    width: 175px;
+    height: 346px;
+    position: absolute;
+    top: 47%;
+    left: 60%;
+    z-index: 5;
+}
+
+.decor__3 {
+    width: 155px;
+    height: 142px;
+    position: absolute;
+    top: 77%;
+    left: 20%;
+    z-index: 0  ;
+}
+
+.character_name_1 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: center;
+}
+
+.card__2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.pic__2 {
+    width: 300px;
+    height: 426px;
+    padding-right: 248px;
+    position: relative;
+    z-index: 3;
+}
+
+.pic__2-2 {
+    width: 175px;
+    height: 346px;
+    position: absolute;
+    top: 0;
+    right: 30%;
+    z-index: 5;
+    top: 33%;
+    right: 43%;
+}
+
+.character_name_2 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-bottom: 0;
+    display: flex;
+    position: absolute;
+    top: 17%;
+    right: 32%;
+}
+
+.character_name_2-2 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-top: 0;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 32%;
+}
+
+.card__3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.pic__3 {
+    width: 300px;
+    height: 426px;
+    padding-left: 248px;
+    position: relative;
+    z-index: 3;
+}
+
+.pic__3-3 {
+    width: 161px;
+    height: 247px;
+    position: absolute;
+    top: 0;
+    right: 30%;
+    z-index: 5;
+    top: 53%;
+    left: 30%;
+}
+
+.character_name_3 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-top: 0;
+    display: flex;
+    position: absolute;
+    top: 39%;
+    left: 20%;
+}
+
+.card__4 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.pic__4 {
+    width: 300px;
+    height: 426px;
+    padding-right: 250px;
+    position: relative;
+    z-index: 3;
+}
+
+.pic__4-4 {
+    width: 132px;
+    height: 347px;
+    position: absolute;
+    top: 70%;
+    right: 45%;
+    z-index: 5;
+}
+
+.character_name_4 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-top: 0;
+    display: flex;
+    position: absolute;
+    top: 58%;
+    right: 30%;
+}
+
+.card__5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.pic__5 {
+    width: 300px;
+    height: 433px;
+    padding-left: 250px;
+    position: relative;
+    z-index: 3;
+}
+
+.pic__5-5 {
+    width: 204px;
+    height: 400px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    z-index: 5;
+}
+
+.character_name_5 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-top: 0;
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+}
+
+.character_name_5-1 {
+    font-family: 'Futurespore Cyrillic';
+    font-size: 96px;
+    color: #F1F1F1;
+    margin: 0;
+    text-align: left;
+    padding-top: 0;
+    display: flex;
+    position: absolute;
+    top: 89%;
+    left: 47%;
+}
+
+.video {
+    width: 1440px;
+    height: 724px;
+    padding-top: 139px;
+}
+
+.arts {
+    padding-top: 152px;
+    padding-left: 251px;
+    padding-right: 241px;
+    padding-bottom: 135px;
+    max-width: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.art_2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
